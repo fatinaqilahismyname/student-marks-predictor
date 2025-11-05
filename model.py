@@ -1,5 +1,4 @@
 import streamlit as st
-import scikit-learn as sklearn
 import pickle
 import numpy as np
 import warnings
@@ -58,3 +57,4 @@ if st.button("Predict"):
 
 
     
+
