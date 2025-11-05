@@ -1,4 +1,5 @@
 import streamlit as st
+import scikit-learn as sklearn
 import pickle
 import numpy as np
 import warnings
@@ -54,5 +55,6 @@ if st.button("Predict"):
         st.write("Note: This is model's Prediction")
     except Exception as e:
         st.error (f" Prediction Failed: {e}")
+
 
     
